@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(141, 162, 237);
+
+}
+
+.box{
+     /* border: 1px solid black;  */
+    width: 60%;
+    height: 550px;
+    margin-top: 2%;
+    margin-left: 20%;
+    display: flex;
+    border-radius: 20px;
+   
+
+}
+.one{
+    width: 50%;
+    /* padding:10%; */
+    background-color: white;
+    height: 550px;
+    gap: 20px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.general,.contact{
+    padding: 8%;
+    font-size: 20px;
+    color: blue;
+    font-family: Open Sans;
+    font-weight: 100;
+}
+.contact{
+    color: white;
+    font-weight: 100; 
+}
+
+
+
+.title{
+    
+    position: relative;
+    top:1%; left :8%;}
+
+
+    .title select{
+        width:83%;
+        height:34px;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        outline: none;
+        border-bottom: 1px solid grey;
+        color:black;
+    }
+
+
+    
+
+    .name{
+        padding-top: 5%;
+        gap:1px;
+    }
+    #first ,#last{
+        width: 39%;
+    height: 30px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    
+
+    }
+
+    #first::placeholder{
+        color: black;
+    }
+    
+#last::placeholder{
+        color:black;
+    }
+    .position{
+        padding-top: 5%;
+        
+        
+    }
+
+    .company{
+        padding-top: 5%;
+
+        
+        
+    }
+
+    #comp{
+        width:83%;
+        height: 30px;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        outline: none;
+        border-bottom: 1px solid grey;
+        
+    }
+
+    #comp::placeholder{
+        color: black;
+    }
+    
+    .job{
+        display:flex;
+        padding-top: 5%;
+        /* width:20%; */
+    }
+
+     .job select{
+        width:40%;
+        height:32px;
+    }
+    #busi{
+        width:83%;
+        height:30px;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        outline: none;
+        border-bottom: 1px solid grey;
+        
+    }
+
+    #busi::placeholder{
+        color: black;
+    }
+    
+    
+.two{
+    width: 50%;
+    height: 550px;
+    background-color: blue;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.details{
+      
+    position: relative;
+     left :8%; bottom:1%;
+}
+.street{
+  
+    display: flex;
+   flex-direction: column;
+  
+    
+}
+#street{
+    width:83%;
+    height:35px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background-color: blue;
+    color: white;
+    margin-top: 2%;
+}
+#street::placeholder{
+    color: white;
+}
+#info{
+    margin-top: 4%;
+    height: 40px;
+    width:83%;
+    height:35px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background-color: blue;
+    color: white;
+}
+#info::placeholder{
+    color: white;
+}
+
+.code{
+    padding-top:5% ;
+    display: flex;
+}
+#code{
+    width:91%;
+    height:34px;
+    background-color: blue;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    border-bottom: 1px solid white;
+
+}
+
+ .code select {
+    width:41%;
+    height:37px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    border-bottom: 1px solid  white;
+    background-color: blue;
+    color: white;
+ }
+ #code::placeholder{
+    color: white;
+ }
+
+ 
+ .country{
+    margin-top: 5%;
+ }
+ #con{
+    width:83%;
+    height:30px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    border-bottom: 1px solid  white;
+    background-color: blue;
+    color: white;
+    
+ }
+
+ #con::placeholder{
+    color: white;}
+
+   .phone{
+    margin-top: 5%;
+    
+   }
+   #cd,#phn{
+    
+    height:33px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    border-bottom: 1px solid  white;
+    background-color: blue;
+    color: white;
+    
+   }
+
+   #cd{
+    width:25%;
+   }
+   #phn{
+    width:53%;
+   
+   }
+   
+   #phn::placeholder{
+    color: white;}
+
+    #cd::placeholder{
+        color: white;
+    }
+
+   .email,.accept,.reg{
+    margin-top: 5%;
+
+   }
+   #mail{
+    width:83%;
+    height:30px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    border-bottom: 1px solid  white;
+    background-color: blue;
+    color: white;
+   }
+
+   #mail::placeholder{
+    color: white;}
+
+
+.accept{
+    color: white;
+    position: relative;
+    right: 2%;
+}.accept a{
+    color: white;
+    position: relative;
+    right: 1%;
+    padding-left: 3px;
+}
+.break{
+    padding-left: 6%;
+}
+
+.reg{
+    background-color: azure;
+    height: 50px;
+    border-radius: 35px;
+    width: 40%;
+    border: none;
+    color: black;
+    font-weight: 300;
+    cursor: pointer;
+}
